@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    cattle.io/creator: norman
+  name: mysql-service
+  namespace: default
+spec:
+  clusterIP: None
+  ports:
+  - name: default
+    port: 42
+    protocol: TCP
+    targetPort: 42
+  selector:
+    workload.user.cattle.io/workloadselector: deployment-default-mysql
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}
