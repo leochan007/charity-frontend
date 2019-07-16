@@ -1,0 +1,23 @@
+.MenuItem {
+  width: 90px;
+  height: 60px;
+  background: rgba(216,216,216,0)
+}
+
+.MenuItemText {
+  width: 90px;
+  height: 60px;
+  opacity: 1;
+  color: #333333;
+  font-family: 'PingFangSC-Medium';
+  text-align: center;
+
+  &:hover {
+    color: #0078ff;
+  }
+
+  &:active {
+    color: #0078ff;
+  }
+
+}

@@ -1,6 +1,3 @@
-
-import MenuItem from '@/components/MenuItem/MenuItem.vue';
-
 export default {
     data() {
         return {}
@@ -14,7 +11,6 @@ export default {
     methods: {
     },
     components: {
-        MenuItem,
     },
-    name: 'Header',
+    name: 'Records',
 };

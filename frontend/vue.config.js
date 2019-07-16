@@ -107,13 +107,13 @@ module.exports = {
     port: 8080,
     https: false,
     hotOnly: false,
-    proxy: {
+    /*proxy: {
       '/': {
         target: 'http://kylin.fn.eosbixin.com',
         ws: false,
         changOrigin: true
       },
-    },
+    },*/
     //before: app => {}
   },
 }

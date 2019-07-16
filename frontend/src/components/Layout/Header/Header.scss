@@ -1,0 +1,17 @@
+.header {
+    width:100%;
+    line-height:60px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    width: 394px;
+    height: 60px;
+    padding-left: 200px;
+}
+
+.menuitem {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: row;
+}

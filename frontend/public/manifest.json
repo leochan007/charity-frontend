@@ -1,6 +1,6 @@
 {
-  "name": "frontend3",
-  "short_name": "frontend3",
+  "name": "charity-frontend",
+  "short_name": "cf",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
