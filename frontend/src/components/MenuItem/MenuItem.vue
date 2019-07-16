@@ -1,6 +1,6 @@
 <template>
   <a :href="url">
-    <div class="MenuItem" @click="clickFunc(params)"><div :class="class_name">{{ menuText }}</div></div>
+    <div class="MenuItem"><div :class="class_name">{{ menuText }}</div></div>
   </a>
 </template>
 

@@ -1,0 +1,22 @@
+.index_bg {
+    background-image: url("./../../assets/img_home_searchbkg@1x.png");
+    width: 100%;
+    height: 375px;
+}
+
+.slogan {
+    padding-top: 110px;
+    font-family: 'PingFangSC-Regular';
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.search_bar {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding-left: 295px;
+    padding-top: 50px;
+    color: #ffffff;
+}

@@ -2,14 +2,14 @@ export default {
     props: {
         menuText: '',
         url: '',
-        clickFunc: Function,
     },
     computed: {
         class_name() {
             let tempClass = 'MenuItemText';
-            /*if (this.isActive == '1') {
-                tempClass = tempClass + ':active';
-            }*/
+            let currURL = this.$route.path;
+            if (currURL.endsWith(this.url) > 0) {
+                tempClass = tempClass + ' active';
+            }
             return tempClass;
         }
     },
