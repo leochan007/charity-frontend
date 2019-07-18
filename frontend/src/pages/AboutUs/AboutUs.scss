@@ -1,0 +1,29 @@
+.AboutUs {
+    background-color: #F7F9FB;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .company_intro {
+        font-family: PingFangSC-Regular;
+        font-size: 22px;
+        color: #193644;
+        letter-spacing: 0;
+        width: 88px;
+        height: 30px;
+        margin: 30px auto 41px;
+    }
+
+    .intro_content {
+        width: 800px;
+        margin: 0 auto;
+        font-family: PingFangSC-Light;
+        font-size: 15px;
+        color: #193644;
+        letter-spacing: -1px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+}
