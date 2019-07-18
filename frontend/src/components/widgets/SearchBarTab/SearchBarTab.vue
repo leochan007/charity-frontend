@@ -1,5 +1,5 @@
 <template>
-  <div :class="class_name">{{ searchText }}</div>
+  <div :class="class_name" @click="onClick">{{ searchText }}</div>
 </template>
 
 <style lang="scss" src="./SearchBarTab.scss" />

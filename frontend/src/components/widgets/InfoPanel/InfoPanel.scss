@@ -1,0 +1,44 @@
+.InfoPanel {
+  width: 320px;
+  height: 120px;
+  background: #F5F9FF;
+  border-radius: 4px;
+  border-radius: 4px;
+
+  .title {
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 18px;
+    padding-top: 30px;
+  }
+
+  .line {
+    margin: 0px auto;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+
+    & .number {
+      font-family: PingFangSC-Regular;
+      font-size: 30px;
+      color: #0078FF;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    & .unit {
+      font-family: PingFangSC-Regular;
+      font-size: 24px;
+      color: #333333;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+  }
+}

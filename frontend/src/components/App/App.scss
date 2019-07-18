@@ -12,11 +12,19 @@
     font-style: normal;
 }
 
-html, body {
+html {
+    background-color: #333333;
+}
+
+body {
+    background-color: #333333;
     margin:0 auto;
     width: 1400px;
     height: 100%;
     font-family: 'PingFangSC-Regular';
     font-size: 14px;
-    user-select: none;
+}
+
+#app {
+    background-color: #333333;
 }

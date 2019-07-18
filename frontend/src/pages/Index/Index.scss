@@ -2,21 +2,161 @@
     background-image: url("./../../assets/img_home_searchbkg@1x.png");
     width: 100%;
     height: 375px;
+
+    .slogan {
+        padding-top: 110px;
+        font-family: 'PingFangSC-Regular';
+        font-size: 40px;
+        color: #ffffff;
+    }
+
+    .search_bar {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        padding-left: 295px;
+        padding-top: 50px;
+        color: #ffffff;
+    }
+
+    .input_panel {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+        color: #ffffff;
+
+        input {
+            background: #FFFFFF;
+            border-radius: 4px 0 0 4px;
+            color: #333333;
+        }
+
+        .search_input {
+            width: 750px;
+            height: 50px;
+            margin-left: 275px;
+            padding-left: 10px;
+            font-family: PingFangSC-Regular;
+            font-size: 16px;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 16px;
+        }
+
+        .search_button {
+            width: 100px;
+            font-family: PingFangSC-Regular;
+            font-size: 16px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            background: #FF9500;
+            border-radius: 0 4px 4px 0;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
 }
 
-.slogan {
-    padding-top: 110px;
-    font-family: 'PingFangSC-Regular';
-    font-size: 40px;
-    color: #ffffff;
-}
+.second_panel {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 1000px;
 
-.search_bar {
-    display: -webkit-flex; /* Safari */
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    padding-left: 295px;
-    padding-top: 50px;
-    color: #ffffff;
+    .info_panel_row {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        padding-top: 40px;
+        background-color: #ffffff;
+    }
+
+    .result_list {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+
+        height: 413px;
+        padding-top: 0px;
+        background-color: #ffffff;
+
+        .title {
+            font-family: PingFangSC-Regular;
+            font-size: 22px;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 22px;
+            margin-top: 40px;
+        }
+
+        .table {
+            display: table;
+            width: 1000px;
+            margin-top: 41px;
+            border-collapse: collapse;
+
+            .table-tr {
+                display: table-row;
+                font-size: 14px;
+                line-height: 50px;
+                letter-spacing: 0;
+                text-align: center;
+
+                border-top: 1px solid #DDDDDD;
+                border-bottom: 1px solid #DDDDDD;
+
+                .table-th {
+
+                    width: 250px;
+                    height: 50px;
+
+                    display: table-cell;
+                    font-family: PingFangSC-Medium;
+                    color: #666666;
+                }
+
+                .table-td {
+
+                    width: 250px;
+                    height: 50px;
+
+                    display: table-cell;
+                    font-family: PingFangSC-Regular;
+                    color: #333333;
+                }
+            }
+
+        }
+    }
+
+    .announcement_panel {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        height: 554px;
+        padding-top: 0px;
+        background-color: #F7F9FB;
+
+        .title1 {
+            font-family: PingFangSC-Regular;
+            font-size: 22px;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 22px;
+            padding-top: 50px;
+        }
+
+        .announcelst {
+            padding-top: 41px;
+            margin: 0 auto;
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: row;
+
+        }
+    }
+
 }

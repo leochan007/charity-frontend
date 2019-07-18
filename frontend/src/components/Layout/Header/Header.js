@@ -1,4 +1,4 @@
-import MenuItem from '@/components/MenuItem/MenuItem.vue';
+import MenuItem from '@/components/widgets/MenuItem/MenuItem.vue';
 
 export default {
     data() {
@@ -13,11 +13,11 @@ export default {
                     menuText: '出行记录',
                     url: '/records',
                 },
-                /*{
+                {
                     lvl: 1,
                     menuText: '失信名单',
-                    url: '/',
-                },*/
+                    url: '/bads',
+                },
                 {
                     lvl: 1,
                     menuText: '关于我们',

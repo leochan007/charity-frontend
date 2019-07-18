@@ -1,10 +1,8 @@
-//import voca from 'voca';
+import Header from '@/components/layout/Header/Header.vue';
 
-import Header from '@/components/Layout/Header/Header.vue';
+import Footer from '@/components/layout/Footer/Footer.vue';
 
-import Footer from '@/components/Layout/Footer/Footer.vue';
-
-import Main from '@/components/Layout/Main/Main.vue';
+import Main from '@/components/layout/Main/Main.vue';
 
 export default {
     data() {
