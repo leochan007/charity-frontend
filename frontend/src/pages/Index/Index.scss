@@ -10,53 +10,60 @@
         color: #ffffff;
     }
 
-    .search_bar {
-        display: -webkit-flex;
-        display: flex;
-        flex-direction: row;
-        padding-left: 295px;
-        padding-top: 50px;
-        color: #ffffff;
-    }
+    .search_panel {
 
-    .input_panel {
-        display: -webkit-flex;
-        display: flex;
-        flex-direction: row;
-        padding-top: 10px;
-        color: #ffffff;
+        margin:0 auto;
+        width:fit-content;
 
-        input {
-            background: #FFFFFF;
-            border-radius: 4px 0 0 4px;
-            color: #333333;
+        .search_bar {
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: row;
+            padding-left: 25px;
+            padding-top: 50px;
+            color: #ffffff;
         }
-
-        .search_input {
-            width: 750px;
-            height: 50px;
-            margin-left: 275px;
-            padding-left: 10px;
-            font-family: PingFangSC-Regular;
-            font-size: 16px;
-            color: #333333;
-            letter-spacing: 0;
-            line-height: 16px;
-        }
-
-        .search_button {
-            width: 100px;
-            font-family: PingFangSC-Regular;
-            font-size: 16px;
-            color: #FFFFFF;
-            letter-spacing: 0;
-            background: #FF9500;
-            border-radius: 0 4px 4px 0;
-
-            &:hover {
-                cursor: pointer;
+    
+        .input_panel {
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: row;
+            padding-top: 10px;
+            color: #ffffff;
+            margin: 0 auto;
+    
+            input {
+                background: #FFFFFF;
+                border-radius: 4px 0 0 4px;
+                color: #333333;
+            }
+    
+            .search_input {
+                width: 750px;
+                height: 50px;
+                padding-left: 10px;
+                font-family: PingFangSC-Regular;
+                font-size: 16px;
+                color: #333333;
+                letter-spacing: 0;
+                line-height: 16px;
+            }
+    
+            .search_button {
+                width: 100px;
+                font-family: PingFangSC-Regular;
+                font-size: 16px;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                background: #FF9500;
+                border-radius: 0 4px 4px 0;
+    
+                &:hover {
+                    cursor: pointer;
+                }
             }
         }
+
     }
 }
 

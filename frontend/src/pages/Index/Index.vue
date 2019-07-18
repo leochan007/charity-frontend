@@ -2,29 +2,31 @@
   <div class="main">
     <div class="index_bg">
       <div class="slogan">关爱社会福利事业，关爱社会弱势群体</div>
-      <div class="search_bar">
-        <SearchBarTab
-          v-for="(item, key) in searchtab_items"
-          :key="key"
-          :searchText="item.searchText"
-        />
-      </div>
-      <div class="input_panel">
-        <input
-          class="search_input"
-          placeholder="请输入手机号、交易Hash，即可查询捐款信息"
-          type="input"
-          name="search_text"
-          id="search_text"
-        />
-        <input
-          value="查询"
-          class="search_button"
-          type="button"
-          name="search_btn"
-          id="search_btn"
-          @click="onSearch"
-        />
+      <div class="search_panel">
+        <div class="search_bar">
+          <SearchBarTab
+            v-for="(item, key) in searchtab_items"
+            :key="key"
+            :searchText="item.searchText"
+          />
+        </div>
+        <div class="input_panel">
+          <input
+            class="search_input"
+            placeholder="请输入手机号、交易Hash，即可查询捐款信息"
+            type="input"
+            name="search_text"
+            id="search_text"
+          />
+          <input
+            value="查询"
+            class="search_button"
+            type="button"
+            name="search_btn"
+            id="search_btn"
+            @click="onSearch"
+          />
+        </div>
       </div>
     </div>
     <div class="second_panel">
