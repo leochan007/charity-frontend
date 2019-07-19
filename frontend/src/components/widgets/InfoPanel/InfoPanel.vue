@@ -8,5 +8,5 @@
   </div>
 </template>
 
-<style lang="scss" src="./InfoPanel.scss" />
+<style scoped lang="scss" src="./InfoPanel.scss" />
 <script lang="javascript" src="./InfoPanel.js" />

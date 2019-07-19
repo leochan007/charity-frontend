@@ -7,5 +7,5 @@
   </div>
 </template>
 
-<style lang="scss" src="./Header.scss" />
+<style scoped lang="scss" src="./Header.scss" />
 <script lang="javascript" src="./Header.js" />
