@@ -11,13 +11,12 @@
         <v-data-table
           hide-actions
           :headers="fields"
-          :items="trip_records"
+          :items="trip_datas"
           :loading="loading"
           class="elevation-1"
         >
           <template slot="items" slot-scope="props">
-            <tr class="text-xs-left" @click="viewDetail(props.item.hash)">
-              <td>{{ props.item.starttime }}</td>
+            <tr class="text-xs-left">
               <td>{{ props.item.starttime }}</td>
               <td>{{ props.item.endtime }}</td>
               <td>{{ props.item.source }}</td>
