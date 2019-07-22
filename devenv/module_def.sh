@@ -8,6 +8,8 @@ PREFIX=repo.alphacario.com:8089
 
 FLAG=dev
 
+GIT_COMMIT=
+
 if [ ! -n "$GIT_COMMIT" ]; then
 	echo "normal build shell..."
     VERSION=latest
