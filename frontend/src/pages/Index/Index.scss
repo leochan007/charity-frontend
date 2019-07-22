@@ -1,7 +1,8 @@
 .index_bg {
     background-image: url("./../../assets/img_home_searchbkg@1x.png");
-    width: 100%;
+    width: 1400px;
     height: 375px;
+    margin: 0 auto;
 
     .slogan {
         padding-top: 110px;
@@ -13,7 +14,7 @@
     .search_panel {
 
         margin:0 auto;
-        width:fit-content;
+        width: 850px;
 
         .search_bar {
             display: -webkit-flex;

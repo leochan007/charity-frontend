@@ -74,5 +74,5 @@
   </div>
 </template>
 
-<style lang="scss" src="./Index.scss" />
+<style scoped lang="scss" src="./Index.scss"/>
 <script lang="javascript" src="./Index.js" />

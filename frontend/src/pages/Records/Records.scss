@@ -1,0 +1,60 @@
+.Records {
+
+    background-color: #F7F9FB;
+
+    .result_list {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+
+        margin: 0px auto;
+        width: 1000px;
+        padding-top: 0px;
+        background-color: #ffffff;
+
+        .title {
+
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: row;
+            font-family: PingFangSC-Regular;
+            font-size: 22px;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 25px;
+            margin-top: 24px;
+            margin-left: 5px;
+
+            .trip_logo {
+                width: 20px;
+                height: 25px;
+            }
+
+            .trip_title {
+                font-family: PingFangSC-Regular;
+                font-size: 22px;
+                color: #333333;
+                letter-spacing: 0;
+                line-height: 22px;
+                width: 90px;
+                height: 22px;
+                margin-top: 2px;
+                margin-left: 15px;
+            }
+
+        }
+
+        .table {
+            margin-top: 20.5px;
+            border-collapse: collapse;
+            width: 1000px;
+
+            td {
+                width: 50px;
+            }
+
+
+        }
+    }
+
+}

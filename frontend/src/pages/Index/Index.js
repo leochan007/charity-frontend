@@ -47,6 +47,7 @@ export default {
 
         onSearch() {
             console.log('query_type:' + this.query_type);
+            this.$router.push('/records');
         },
 
     },

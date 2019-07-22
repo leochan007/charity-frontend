@@ -6,5 +6,5 @@
   </div>
 </template>
 
-<style lang="scss" src="./AnnounceWidget.scss" />
+<style scoped lang="scss" src="./AnnounceWidget.scss" />
 <script lang="javascript" src="./AnnounceWidget.js" />

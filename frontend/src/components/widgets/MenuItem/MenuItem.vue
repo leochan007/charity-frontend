@@ -1,8 +1,8 @@
 <template>
-  <a :href="url">
+  <router-link :to="url">
     <div class="MenuItem"><div :class="class_name">{{ menuText }}</div></div>
-  </a>
+  </router-link>
 </template>
 
-<style lang="scss" src="./MenuItem.scss" />
+<style scoped lang="scss" src="./MenuItem.scss" />
 <script lang="javascript" src="./MenuItem.js" />
