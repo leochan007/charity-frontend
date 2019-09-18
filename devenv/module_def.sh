@@ -4,7 +4,7 @@ img_name=charity-frontend
 
 ACAR_VER=1.0.0
 
-PREFIX=repo.alphacario.com:8089
+PREFIX=repo.luomutrip.com:8089
 
 FLAG=dev
 
