@@ -30,7 +30,7 @@ spec:
         workload.user.cattle.io/workloadselector: deployment-charity-charity-frontend
     spec:
       containers:
-      - image: repo.alphacario.com:8089/charity-frontend
+      - image: repo.luomutrip.com:8089/charity-frontend
         imagePullPolicy: Always
         name: charity-frontend
         ports:
